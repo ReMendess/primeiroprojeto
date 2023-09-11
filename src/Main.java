@@ -8,5 +8,12 @@ public class Main {
         boolean incluidoNoPlano = true;
         double notaDoFilme = 7.2;
 
+        String sinopse;
+        sinopse = """
+                Um ladrão e um bando de aventureiros embarcam em uma jornada épica para recuperar uma relíquia.
+                
+                """ + anoDeLancamento;
+        System.out.println(sinopse);
         }
+
     }
